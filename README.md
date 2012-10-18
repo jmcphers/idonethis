@@ -1,29 +1,20 @@
 # Idonethis
 
-TODO: Write a gem description
+A simple little tool for sending IDoneThis messages.
 
-## Installation
+# Setup
 
-Add this line to your application's Gemfile:
+1. Be a team member of Influitive (sorry! I'm going to add some config options so everyone can use this soon).
+2. Create a file, `~/.idonethisrc`, with the following contents:
 
-    gem 'idonethis'
+    sender: GmailSender
+    username: (your e-mail address)
+    password: (your password)
 
-And then execute:
+# Usage
 
-    $ bundle
+Just call the following:
 
-Or install it yourself as:
+    idonethis "Talked to corporate - like a boss."
 
-    $ gem install idonethis
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+It'll be logged in your IDoneThis.
