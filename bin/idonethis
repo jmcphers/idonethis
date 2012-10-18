@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'idonethis'
+
+IDoneThis.send(ARGV[0])

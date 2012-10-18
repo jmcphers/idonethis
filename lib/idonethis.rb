@@ -1,5 +1,13 @@
-require "idonethis/version"
+require 'hashie'
+require 'active_support'
+require 'gmail'
 
-module Idonethis
-  # Your code goes here...
+require "idonethis/version"
+require "idonethis/senders/gmail_sender"
+require "idonethis/config"
+
+module IDoneThis
+  def self.send(message)
+    IDoneThis.config.sender.send(message)
+  end
 end
