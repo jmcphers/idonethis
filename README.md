@@ -4,15 +4,13 @@ A simple little tool for sending IDoneThis messages.
 
 # Setup
 
-1. Install idonethis by running:
+Install idonethis by running:
 
     gem install idonethis
 
-2. Configure idonethis by calling:
+Configure idonethis by calling:
 
     idonethis config
-
-3. Profit!
 
 # Usage
 
