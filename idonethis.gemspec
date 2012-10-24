@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["ryan@ryanbrunner.com"]
   gem.description   = %q{Simple little command line tool for sending idonethis messages}
   gem.summary       = %q{Sends messages to your idonethis using the e-mail client of your choice (as long as your choice is gmail)}
-  gem.homepage      = ""
+  gem.homepage      = "http://github.com/influitive/idonethis"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

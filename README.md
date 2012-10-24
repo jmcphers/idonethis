@@ -4,12 +4,15 @@ A simple little tool for sending IDoneThis messages.
 
 # Setup
 
-1. Be a team member of Influitive (sorry! I'm going to add some config options so everyone can use this soon).
-2. Create a file, `~/.idonethisrc`, with the following contents:
+1. Install idonethis by running:
 
-    sender: GmailSender
-    username: (your e-mail address)
-    password: (your password)
+    gem install idonethis
+
+2. Configure idonethis by calling:
+
+    idonethis config
+
+3. Profit!
 
 # Usage
 

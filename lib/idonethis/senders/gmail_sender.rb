@@ -6,7 +6,7 @@ module IDoneThis
       def send(message)
         Gmail.new(IDoneThis.config.username, IDoneThis.config.password) do |gmail|
           gmail.deliver do
-            to "influitive-1@team.idonethis.com"
+            to IDoneThis.config.idonethis_address
             subject "What I did today"
             text_part do
               body message
