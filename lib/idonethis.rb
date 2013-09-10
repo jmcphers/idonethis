@@ -4,6 +4,7 @@ require 'gmail'
 
 require "idonethis/version"
 require "idonethis/senders/gmail_sender"
+require "idonethis/keychain"
 require "idonethis/config"
 
 module IDoneThis
