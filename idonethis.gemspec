@@ -21,4 +21,5 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'activesupport'
   gem.add_runtime_dependency 'hashie'
   gem.add_runtime_dependency 'mime'
+  gem.add_runtime_dependency 'syck'
 end
